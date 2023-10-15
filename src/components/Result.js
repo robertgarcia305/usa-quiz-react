@@ -1,22 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
-import image from "../img/image1.png";
+import bomb from "../img/bomb.png";
 
-const Start = (props) => {
+const Result = (props) => {
     return (
-        <div
-            className="start-wrap"
-            style={{ display: props.slide === 0 ? "flex" : "none" }}
-        >
-            <h3>USA Trivia Challenge</h3>
-            <img src={image}></img>
-            <p>
-                Welcome to the "USA Trivia Challenge"! Test your knowledge about
-                the United States of America with this fun and informative quiz
-            </p>
-            <button onClick={props.changeDisplay}>Let's Go</button>
+        <div style={{ display: props.slide === 2 ? "block" : "none" }}>
+            {props.answers === 6 && (
+                <p>Great you got all of the answers right</p>
+            )}
+            {props.answers === 1 && (
+                <p>Please try again you didn't get any answer right</p>
+            )}
+            {props.answers < 4 && props.answers > 2 && (
+                <p>Almost there, go ahead and try again (:</p>
+            )}
+            <h3>This is your result:</h3>
+            <img alt="bomb" src={bomb}></img>
+            <div>You got {props.result - 1} answers right</div>
         </div>
     );
 };
 
-export default Start;
+export default Result;
