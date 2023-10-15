@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/usa-quiz-react/static/css/main.f771e514.css",
+    "main.js": "/usa-quiz-react/static/js/main.4efffd2c.js",
+    "static/js/787.d70beecf.chunk.js": "/usa-quiz-react/static/js/787.d70beecf.chunk.js",
+    "static/media/image1.png": "/usa-quiz-react/static/media/image1.834f24135496e5b63bb5.png",
+    "static/media/bomb.png": "/usa-quiz-react/static/media/bomb.bd06566c3d7e642a3ce0.png",
+    "static/media/Nunito-SemiBold.ttf": "/usa-quiz-react/static/media/Nunito-SemiBold.ae592fe018d712c287a2.ttf",
+    "static/media/Nunito-Bold.ttf": "/usa-quiz-react/static/media/Nunito-Bold.275dd55e10ba966bcb9b.ttf",
+    "index.html": "/usa-quiz-react/index.html",
+    "main.f771e514.css.map": "/usa-quiz-react/static/css/main.f771e514.css.map",
+    "main.4efffd2c.js.map": "/usa-quiz-react/static/js/main.4efffd2c.js.map",
+    "787.d70beecf.chunk.js.map": "/usa-quiz-react/static/js/787.d70beecf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f771e514.css",
+    "static/js/main.4efffd2c.js"
+  ]
+}
